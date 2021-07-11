@@ -1,5 +1,5 @@
 {
-  "name": "<%= name >",
+  "name": "<%= name %>",
   "version": "1.0.0",
   "description": "A template for NodeJS project with modern lints and formatters",
   "main": "src/index.js",
@@ -14,7 +14,7 @@
   "keywords": [
     "nodejs"
   ],
-  "author": "<%= author >",
+  "author": "<%= author %>",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
