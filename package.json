@@ -1,9 +1,10 @@
 {
   "name": "<%= name %>",
   "version": "1.0.0",
-  "description": "A template for NodeJS project with modern lints and formatters",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
+    "start": "nodemon",
     "test": "jest",
     "commit": "cz",
     "lint": "eslint",
@@ -28,7 +29,8 @@
     "husky": "^6.0.0",
     "jest": "^27.0.6",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "nodemon": "^2.0.9"
   },
   "lint-staged": {
     "*.js": "npm run lint:fix",
